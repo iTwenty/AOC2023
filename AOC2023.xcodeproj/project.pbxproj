@@ -1,0 +1,765 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63F7231B2B2C4F3A0024A77D /* Puzzle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F7231A2B2C4F3A0024A77D /* Puzzle.swift */; };
+		63F7231D2B2C4F3A0024A77D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F7231C2B2C4F3A0024A77D /* main.swift */; };
+		63F7231F2B2C4F3A0024A77D /* InputFileReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F7231E2B2C4F3A0024A77D /* InputFileReader.swift */; };
+		63F723222B2C4F3A0024A77D /* Puzzle01.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F723212B2C4F3A0024A77D /* Puzzle01.swift */; };
+		63F723242B2C4F3A0024A77D /* Input01 in Resources */ = {isa = PBXBuildFile; fileRef = 63F723232B2C4F3A0024A77D /* Input01 */; };
+		63F723272B2C4F3A0024A77D /* Puzzle02.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F723262B2C4F3A0024A77D /* Puzzle02.swift */; };
+		63F723292B2C4F3A0024A77D /* Input02 in Resources */ = {isa = PBXBuildFile; fileRef = 63F723282B2C4F3A0024A77D /* Input02 */; };
+		63F7232C2B2C4F3A0024A77D /* Puzzle03.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F7232B2B2C4F3A0024A77D /* Puzzle03.swift */; };
+		63F7232E2B2C4F3A0024A77D /* Input03 in Resources */ = {isa = PBXBuildFile; fileRef = 63F7232D2B2C4F3A0024A77D /* Input03 */; };
+		63F723312B2C4F3A0024A77D /* Puzzle04.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F723302B2C4F3A0024A77D /* Puzzle04.swift */; };
+		63F723332B2C4F3A0024A77D /* Input04 in Resources */ = {isa = PBXBuildFile; fileRef = 63F723322B2C4F3A0024A77D /* Input04 */; };
+		63F723362B2C4F3A0024A77D /* Puzzle05.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F723352B2C4F3A0024A77D /* Puzzle05.swift */; };
+		63F723382B2C4F3A0024A77D /* Input05 in Resources */ = {isa = PBXBuildFile; fileRef = 63F723372B2C4F3A0024A77D /* Input05 */; };
+		63F7233B2B2C4F3A0024A77D /* Puzzle06.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F7233A2B2C4F3A0024A77D /* Puzzle06.swift */; };
+		63F7233D2B2C4F3A0024A77D /* Input06 in Resources */ = {isa = PBXBuildFile; fileRef = 63F7233C2B2C4F3A0024A77D /* Input06 */; };
+		63F723402B2C4F3A0024A77D /* Puzzle07.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F7233F2B2C4F3A0024A77D /* Puzzle07.swift */; };
+		63F723422B2C4F3A0024A77D /* Input07 in Resources */ = {isa = PBXBuildFile; fileRef = 63F723412B2C4F3A0024A77D /* Input07 */; };
+		63F723452B2C4F3A0024A77D /* Puzzle08.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F723442B2C4F3A0024A77D /* Puzzle08.swift */; };
+		63F723472B2C4F3A0024A77D /* Input08 in Resources */ = {isa = PBXBuildFile; fileRef = 63F723462B2C4F3A0024A77D /* Input08 */; };
+		63F7234A2B2C4F3A0024A77D /* Puzzle09.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F723492B2C4F3A0024A77D /* Puzzle09.swift */; };
+		63F7234C2B2C4F3A0024A77D /* Input09 in Resources */ = {isa = PBXBuildFile; fileRef = 63F7234B2B2C4F3A0024A77D /* Input09 */; };
+		63F7234F2B2C4F3A0024A77D /* Puzzle10.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F7234E2B2C4F3A0024A77D /* Puzzle10.swift */; };
+		63F723512B2C4F3A0024A77D /* Input10 in Resources */ = {isa = PBXBuildFile; fileRef = 63F723502B2C4F3A0024A77D /* Input10 */; };
+		63F723542B2C4F3A0024A77D /* Puzzle11.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F723532B2C4F3A0024A77D /* Puzzle11.swift */; };
+		63F723562B2C4F3A0024A77D /* Input11 in Resources */ = {isa = PBXBuildFile; fileRef = 63F723552B2C4F3A0024A77D /* Input11 */; };
+		63F723592B2C4F3A0024A77D /* Puzzle12.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F723582B2C4F3A0024A77D /* Puzzle12.swift */; };
+		63F7235B2B2C4F3A0024A77D /* Input12 in Resources */ = {isa = PBXBuildFile; fileRef = 63F7235A2B2C4F3A0024A77D /* Input12 */; };
+		63F7235E2B2C4F3A0024A77D /* Puzzle13.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F7235D2B2C4F3A0024A77D /* Puzzle13.swift */; };
+		63F723602B2C4F3A0024A77D /* Input13 in Resources */ = {isa = PBXBuildFile; fileRef = 63F7235F2B2C4F3A0024A77D /* Input13 */; };
+		63F723632B2C4F3A0024A77D /* Puzzle14.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F723622B2C4F3A0024A77D /* Puzzle14.swift */; };
+		63F723652B2C4F3A0024A77D /* Input14 in Resources */ = {isa = PBXBuildFile; fileRef = 63F723642B2C4F3A0024A77D /* Input14 */; };
+		63F723682B2C4F3A0024A77D /* Puzzle15.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F723672B2C4F3A0024A77D /* Puzzle15.swift */; };
+		63F7236A2B2C4F3A0024A77D /* Input15 in Resources */ = {isa = PBXBuildFile; fileRef = 63F723692B2C4F3A0024A77D /* Input15 */; };
+		63F7236D2B2C4F3A0024A77D /* Puzzle16.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F7236C2B2C4F3A0024A77D /* Puzzle16.swift */; };
+		63F7236F2B2C4F3A0024A77D /* Input16 in Resources */ = {isa = PBXBuildFile; fileRef = 63F7236E2B2C4F3A0024A77D /* Input16 */; };
+		63F723722B2C4F3A0024A77D /* Puzzle17.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F723712B2C4F3A0024A77D /* Puzzle17.swift */; };
+		63F723742B2C4F3A0024A77D /* Input17 in Resources */ = {isa = PBXBuildFile; fileRef = 63F723732B2C4F3A0024A77D /* Input17 */; };
+		63F723772B2C4F3A0024A77D /* Puzzle18.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F723762B2C4F3A0024A77D /* Puzzle18.swift */; };
+		63F723792B2C4F3A0024A77D /* Input18 in Resources */ = {isa = PBXBuildFile; fileRef = 63F723782B2C4F3A0024A77D /* Input18 */; };
+		63F7237C2B2C4F3A0024A77D /* Puzzle19.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F7237B2B2C4F3A0024A77D /* Puzzle19.swift */; };
+		63F7237E2B2C4F3A0024A77D /* Input19 in Resources */ = {isa = PBXBuildFile; fileRef = 63F7237D2B2C4F3A0024A77D /* Input19 */; };
+		63F723812B2C4F3A0024A77D /* Puzzle20.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F723802B2C4F3A0024A77D /* Puzzle20.swift */; };
+		63F723832B2C4F3A0024A77D /* Input20 in Resources */ = {isa = PBXBuildFile; fileRef = 63F723822B2C4F3A0024A77D /* Input20 */; };
+		63F723862B2C4F3A0024A77D /* Puzzle21.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F723852B2C4F3A0024A77D /* Puzzle21.swift */; };
+		63F723882B2C4F3A0024A77D /* Input21 in Resources */ = {isa = PBXBuildFile; fileRef = 63F723872B2C4F3A0024A77D /* Input21 */; };
+		63F7238B2B2C4F3A0024A77D /* Puzzle22.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F7238A2B2C4F3A0024A77D /* Puzzle22.swift */; };
+		63F7238D2B2C4F3A0024A77D /* Input22 in Resources */ = {isa = PBXBuildFile; fileRef = 63F7238C2B2C4F3A0024A77D /* Input22 */; };
+		63F723902B2C4F3A0024A77D /* Puzzle23.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F7238F2B2C4F3A0024A77D /* Puzzle23.swift */; };
+		63F723922B2C4F3A0024A77D /* Input23 in Resources */ = {isa = PBXBuildFile; fileRef = 63F723912B2C4F3A0024A77D /* Input23 */; };
+		63F723952B2C4F3A0024A77D /* Puzzle24.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F723942B2C4F3A0024A77D /* Puzzle24.swift */; };
+		63F723972B2C4F3A0024A77D /* Input24 in Resources */ = {isa = PBXBuildFile; fileRef = 63F723962B2C4F3A0024A77D /* Input24 */; };
+		63F7239A2B2C4F3A0024A77D /* Puzzle25.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F723992B2C4F3A0024A77D /* Puzzle25.swift */; };
+		63F7239C2B2C4F3A0024A77D /* Input25 in Resources */ = {isa = PBXBuildFile; fileRef = 63F7239B2B2C4F3A0024A77D /* Input25 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		63F723172B2C4F3A0024A77D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63F7230B2B2C4F3A0024A77D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63F723152B2C4F3A0024A77D;
+			remoteInfo = Input;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		63F723122B2C4F3A0024A77D /* AOC2023 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AOC2023; sourceTree = BUILT_PRODUCTS_DIR; };
+		63F723162B2C4F3A0024A77D /* Input.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Input.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		63F7231A2B2C4F3A0024A77D /* Puzzle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Puzzle.swift; sourceTree = "<group>"; };
+		63F7231C2B2C4F3A0024A77D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		63F7231E2B2C4F3A0024A77D /* InputFileReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputFileReader.swift; sourceTree = "<group>"; };
+		63F723212B2C4F3A0024A77D /* Puzzle01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Puzzle01.swift; sourceTree = "<group>"; };
+		63F723232B2C4F3A0024A77D /* Input01 */ = {isa = PBXFileReference; lastKnownFileType = text; path = Input01; sourceTree = "<group>"; };
+		63F723262B2C4F3A0024A77D /* Puzzle02.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Puzzle02.swift; sourceTree = "<group>"; };
+		63F723282B2C4F3A0024A77D /* Input02 */ = {isa = PBXFileReference; lastKnownFileType = text; path = Input02; sourceTree = "<group>"; };
+		63F7232B2B2C4F3A0024A77D /* Puzzle03.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Puzzle03.swift; sourceTree = "<group>"; };
+		63F7232D2B2C4F3A0024A77D /* Input03 */ = {isa = PBXFileReference; lastKnownFileType = text; path = Input03; sourceTree = "<group>"; };
+		63F723302B2C4F3A0024A77D /* Puzzle04.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Puzzle04.swift; sourceTree = "<group>"; };
+		63F723322B2C4F3A0024A77D /* Input04 */ = {isa = PBXFileReference; lastKnownFileType = text; path = Input04; sourceTree = "<group>"; };
+		63F723352B2C4F3A0024A77D /* Puzzle05.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Puzzle05.swift; sourceTree = "<group>"; };
+		63F723372B2C4F3A0024A77D /* Input05 */ = {isa = PBXFileReference; lastKnownFileType = text; path = Input05; sourceTree = "<group>"; };
+		63F7233A2B2C4F3A0024A77D /* Puzzle06.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Puzzle06.swift; sourceTree = "<group>"; };
+		63F7233C2B2C4F3A0024A77D /* Input06 */ = {isa = PBXFileReference; lastKnownFileType = text; path = Input06; sourceTree = "<group>"; };
+		63F7233F2B2C4F3A0024A77D /* Puzzle07.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Puzzle07.swift; sourceTree = "<group>"; };
+		63F723412B2C4F3A0024A77D /* Input07 */ = {isa = PBXFileReference; lastKnownFileType = text; path = Input07; sourceTree = "<group>"; };
+		63F723442B2C4F3A0024A77D /* Puzzle08.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Puzzle08.swift; sourceTree = "<group>"; };
+		63F723462B2C4F3A0024A77D /* Input08 */ = {isa = PBXFileReference; lastKnownFileType = text; path = Input08; sourceTree = "<group>"; };
+		63F723492B2C4F3A0024A77D /* Puzzle09.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Puzzle09.swift; sourceTree = "<group>"; };
+		63F7234B2B2C4F3A0024A77D /* Input09 */ = {isa = PBXFileReference; lastKnownFileType = text; path = Input09; sourceTree = "<group>"; };
+		63F7234E2B2C4F3A0024A77D /* Puzzle10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Puzzle10.swift; sourceTree = "<group>"; };
+		63F723502B2C4F3A0024A77D /* Input10 */ = {isa = PBXFileReference; lastKnownFileType = text; path = Input10; sourceTree = "<group>"; };
+		63F723532B2C4F3A0024A77D /* Puzzle11.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Puzzle11.swift; sourceTree = "<group>"; };
+		63F723552B2C4F3A0024A77D /* Input11 */ = {isa = PBXFileReference; lastKnownFileType = text; path = Input11; sourceTree = "<group>"; };
+		63F723582B2C4F3A0024A77D /* Puzzle12.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Puzzle12.swift; sourceTree = "<group>"; };
+		63F7235A2B2C4F3A0024A77D /* Input12 */ = {isa = PBXFileReference; lastKnownFileType = text; path = Input12; sourceTree = "<group>"; };
+		63F7235D2B2C4F3A0024A77D /* Puzzle13.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Puzzle13.swift; sourceTree = "<group>"; };
+		63F7235F2B2C4F3A0024A77D /* Input13 */ = {isa = PBXFileReference; lastKnownFileType = text; path = Input13; sourceTree = "<group>"; };
+		63F723622B2C4F3A0024A77D /* Puzzle14.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Puzzle14.swift; sourceTree = "<group>"; };
+		63F723642B2C4F3A0024A77D /* Input14 */ = {isa = PBXFileReference; lastKnownFileType = text; path = Input14; sourceTree = "<group>"; };
+		63F723672B2C4F3A0024A77D /* Puzzle15.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Puzzle15.swift; sourceTree = "<group>"; };
+		63F723692B2C4F3A0024A77D /* Input15 */ = {isa = PBXFileReference; lastKnownFileType = text; path = Input15; sourceTree = "<group>"; };
+		63F7236C2B2C4F3A0024A77D /* Puzzle16.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Puzzle16.swift; sourceTree = "<group>"; };
+		63F7236E2B2C4F3A0024A77D /* Input16 */ = {isa = PBXFileReference; lastKnownFileType = text; path = Input16; sourceTree = "<group>"; };
+		63F723712B2C4F3A0024A77D /* Puzzle17.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Puzzle17.swift; sourceTree = "<group>"; };
+		63F723732B2C4F3A0024A77D /* Input17 */ = {isa = PBXFileReference; lastKnownFileType = text; path = Input17; sourceTree = "<group>"; };
+		63F723762B2C4F3A0024A77D /* Puzzle18.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Puzzle18.swift; sourceTree = "<group>"; };
+		63F723782B2C4F3A0024A77D /* Input18 */ = {isa = PBXFileReference; lastKnownFileType = text; path = Input18; sourceTree = "<group>"; };
+		63F7237B2B2C4F3A0024A77D /* Puzzle19.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Puzzle19.swift; sourceTree = "<group>"; };
+		63F7237D2B2C4F3A0024A77D /* Input19 */ = {isa = PBXFileReference; lastKnownFileType = text; path = Input19; sourceTree = "<group>"; };
+		63F723802B2C4F3A0024A77D /* Puzzle20.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Puzzle20.swift; sourceTree = "<group>"; };
+		63F723822B2C4F3A0024A77D /* Input20 */ = {isa = PBXFileReference; lastKnownFileType = text; path = Input20; sourceTree = "<group>"; };
+		63F723852B2C4F3A0024A77D /* Puzzle21.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Puzzle21.swift; sourceTree = "<group>"; };
+		63F723872B2C4F3A0024A77D /* Input21 */ = {isa = PBXFileReference; lastKnownFileType = text; path = Input21; sourceTree = "<group>"; };
+		63F7238A2B2C4F3A0024A77D /* Puzzle22.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Puzzle22.swift; sourceTree = "<group>"; };
+		63F7238C2B2C4F3A0024A77D /* Input22 */ = {isa = PBXFileReference; lastKnownFileType = text; path = Input22; sourceTree = "<group>"; };
+		63F7238F2B2C4F3A0024A77D /* Puzzle23.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Puzzle23.swift; sourceTree = "<group>"; };
+		63F723912B2C4F3A0024A77D /* Input23 */ = {isa = PBXFileReference; lastKnownFileType = text; path = Input23; sourceTree = "<group>"; };
+		63F723942B2C4F3A0024A77D /* Puzzle24.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Puzzle24.swift; sourceTree = "<group>"; };
+		63F723962B2C4F3A0024A77D /* Input24 */ = {isa = PBXFileReference; lastKnownFileType = text; path = Input24; sourceTree = "<group>"; };
+		63F723992B2C4F3A0024A77D /* Puzzle25.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Puzzle25.swift; sourceTree = "<group>"; };
+		63F7239B2B2C4F3A0024A77D /* Input25 */ = {isa = PBXFileReference; lastKnownFileType = text; path = Input25; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63F723102B2C4F3A0024A77D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63F7230A2B2C4F3A0024A77D = {
+			isa = PBXGroup;
+			children = (
+				63F723192B2C4F3A0024A77D /* AOC2023 */,
+				63F723132B2C4F3A0024A77D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		63F723132B2C4F3A0024A77D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63F723122B2C4F3A0024A77D /* AOC2023 */,
+				63F723162B2C4F3A0024A77D /* Input.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63F723192B2C4F3A0024A77D /* AOC2023 */ = {
+			isa = PBXGroup;
+			children = (
+				63F7231A2B2C4F3A0024A77D /* Puzzle.swift */,
+				63F7231C2B2C4F3A0024A77D /* main.swift */,
+				63F7231E2B2C4F3A0024A77D /* InputFileReader.swift */,
+				63F723202B2C4F3A0024A77D /* 01 */,
+				63F723252B2C4F3A0024A77D /* 02 */,
+				63F7232A2B2C4F3A0024A77D /* 03 */,
+				63F7232F2B2C4F3A0024A77D /* 04 */,
+				63F723342B2C4F3A0024A77D /* 05 */,
+				63F723392B2C4F3A0024A77D /* 06 */,
+				63F7233E2B2C4F3A0024A77D /* 07 */,
+				63F723432B2C4F3A0024A77D /* 08 */,
+				63F723482B2C4F3A0024A77D /* 09 */,
+				63F7234D2B2C4F3A0024A77D /* 10 */,
+				63F723522B2C4F3A0024A77D /* 11 */,
+				63F723572B2C4F3A0024A77D /* 12 */,
+				63F7235C2B2C4F3A0024A77D /* 13 */,
+				63F723612B2C4F3A0024A77D /* 14 */,
+				63F723662B2C4F3A0024A77D /* 15 */,
+				63F7236B2B2C4F3A0024A77D /* 16 */,
+				63F723702B2C4F3A0024A77D /* 17 */,
+				63F723752B2C4F3A0024A77D /* 18 */,
+				63F7237A2B2C4F3A0024A77D /* 19 */,
+				63F7237F2B2C4F3A0024A77D /* 20 */,
+				63F723842B2C4F3A0024A77D /* 21 */,
+				63F723892B2C4F3A0024A77D /* 22 */,
+				63F7238E2B2C4F3A0024A77D /* 23 */,
+				63F723932B2C4F3A0024A77D /* 24 */,
+				63F723982B2C4F3A0024A77D /* 25 */,
+			);
+			path = AOC2023;
+			sourceTree = "<group>";
+		};
+		63F723202B2C4F3A0024A77D /* 01 */ = {
+			isa = PBXGroup;
+			children = (
+				63F723212B2C4F3A0024A77D /* Puzzle01.swift */,
+				63F723232B2C4F3A0024A77D /* Input01 */,
+			);
+			path = 01;
+			sourceTree = "<group>";
+		};
+		63F723252B2C4F3A0024A77D /* 02 */ = {
+			isa = PBXGroup;
+			children = (
+				63F723262B2C4F3A0024A77D /* Puzzle02.swift */,
+				63F723282B2C4F3A0024A77D /* Input02 */,
+			);
+			path = 02;
+			sourceTree = "<group>";
+		};
+		63F7232A2B2C4F3A0024A77D /* 03 */ = {
+			isa = PBXGroup;
+			children = (
+				63F7232B2B2C4F3A0024A77D /* Puzzle03.swift */,
+				63F7232D2B2C4F3A0024A77D /* Input03 */,
+			);
+			path = 03;
+			sourceTree = "<group>";
+		};
+		63F7232F2B2C4F3A0024A77D /* 04 */ = {
+			isa = PBXGroup;
+			children = (
+				63F723302B2C4F3A0024A77D /* Puzzle04.swift */,
+				63F723322B2C4F3A0024A77D /* Input04 */,
+			);
+			path = 04;
+			sourceTree = "<group>";
+		};
+		63F723342B2C4F3A0024A77D /* 05 */ = {
+			isa = PBXGroup;
+			children = (
+				63F723352B2C4F3A0024A77D /* Puzzle05.swift */,
+				63F723372B2C4F3A0024A77D /* Input05 */,
+			);
+			path = 05;
+			sourceTree = "<group>";
+		};
+		63F723392B2C4F3A0024A77D /* 06 */ = {
+			isa = PBXGroup;
+			children = (
+				63F7233A2B2C4F3A0024A77D /* Puzzle06.swift */,
+				63F7233C2B2C4F3A0024A77D /* Input06 */,
+			);
+			path = 06;
+			sourceTree = "<group>";
+		};
+		63F7233E2B2C4F3A0024A77D /* 07 */ = {
+			isa = PBXGroup;
+			children = (
+				63F7233F2B2C4F3A0024A77D /* Puzzle07.swift */,
+				63F723412B2C4F3A0024A77D /* Input07 */,
+			);
+			path = 07;
+			sourceTree = "<group>";
+		};
+		63F723432B2C4F3A0024A77D /* 08 */ = {
+			isa = PBXGroup;
+			children = (
+				63F723442B2C4F3A0024A77D /* Puzzle08.swift */,
+				63F723462B2C4F3A0024A77D /* Input08 */,
+			);
+			path = 08;
+			sourceTree = "<group>";
+		};
+		63F723482B2C4F3A0024A77D /* 09 */ = {
+			isa = PBXGroup;
+			children = (
+				63F723492B2C4F3A0024A77D /* Puzzle09.swift */,
+				63F7234B2B2C4F3A0024A77D /* Input09 */,
+			);
+			path = 09;
+			sourceTree = "<group>";
+		};
+		63F7234D2B2C4F3A0024A77D /* 10 */ = {
+			isa = PBXGroup;
+			children = (
+				63F7234E2B2C4F3A0024A77D /* Puzzle10.swift */,
+				63F723502B2C4F3A0024A77D /* Input10 */,
+			);
+			path = 10;
+			sourceTree = "<group>";
+		};
+		63F723522B2C4F3A0024A77D /* 11 */ = {
+			isa = PBXGroup;
+			children = (
+				63F723532B2C4F3A0024A77D /* Puzzle11.swift */,
+				63F723552B2C4F3A0024A77D /* Input11 */,
+			);
+			path = 11;
+			sourceTree = "<group>";
+		};
+		63F723572B2C4F3A0024A77D /* 12 */ = {
+			isa = PBXGroup;
+			children = (
+				63F723582B2C4F3A0024A77D /* Puzzle12.swift */,
+				63F7235A2B2C4F3A0024A77D /* Input12 */,
+			);
+			path = 12;
+			sourceTree = "<group>";
+		};
+		63F7235C2B2C4F3A0024A77D /* 13 */ = {
+			isa = PBXGroup;
+			children = (
+				63F7235D2B2C4F3A0024A77D /* Puzzle13.swift */,
+				63F7235F2B2C4F3A0024A77D /* Input13 */,
+			);
+			path = 13;
+			sourceTree = "<group>";
+		};
+		63F723612B2C4F3A0024A77D /* 14 */ = {
+			isa = PBXGroup;
+			children = (
+				63F723622B2C4F3A0024A77D /* Puzzle14.swift */,
+				63F723642B2C4F3A0024A77D /* Input14 */,
+			);
+			path = 14;
+			sourceTree = "<group>";
+		};
+		63F723662B2C4F3A0024A77D /* 15 */ = {
+			isa = PBXGroup;
+			children = (
+				63F723672B2C4F3A0024A77D /* Puzzle15.swift */,
+				63F723692B2C4F3A0024A77D /* Input15 */,
+			);
+			path = 15;
+			sourceTree = "<group>";
+		};
+		63F7236B2B2C4F3A0024A77D /* 16 */ = {
+			isa = PBXGroup;
+			children = (
+				63F7236C2B2C4F3A0024A77D /* Puzzle16.swift */,
+				63F7236E2B2C4F3A0024A77D /* Input16 */,
+			);
+			path = 16;
+			sourceTree = "<group>";
+		};
+		63F723702B2C4F3A0024A77D /* 17 */ = {
+			isa = PBXGroup;
+			children = (
+				63F723712B2C4F3A0024A77D /* Puzzle17.swift */,
+				63F723732B2C4F3A0024A77D /* Input17 */,
+			);
+			path = 17;
+			sourceTree = "<group>";
+		};
+		63F723752B2C4F3A0024A77D /* 18 */ = {
+			isa = PBXGroup;
+			children = (
+				63F723762B2C4F3A0024A77D /* Puzzle18.swift */,
+				63F723782B2C4F3A0024A77D /* Input18 */,
+			);
+			path = 18;
+			sourceTree = "<group>";
+		};
+		63F7237A2B2C4F3A0024A77D /* 19 */ = {
+			isa = PBXGroup;
+			children = (
+				63F7237B2B2C4F3A0024A77D /* Puzzle19.swift */,
+				63F7237D2B2C4F3A0024A77D /* Input19 */,
+			);
+			path = 19;
+			sourceTree = "<group>";
+		};
+		63F7237F2B2C4F3A0024A77D /* 20 */ = {
+			isa = PBXGroup;
+			children = (
+				63F723802B2C4F3A0024A77D /* Puzzle20.swift */,
+				63F723822B2C4F3A0024A77D /* Input20 */,
+			);
+			path = 20;
+			sourceTree = "<group>";
+		};
+		63F723842B2C4F3A0024A77D /* 21 */ = {
+			isa = PBXGroup;
+			children = (
+				63F723852B2C4F3A0024A77D /* Puzzle21.swift */,
+				63F723872B2C4F3A0024A77D /* Input21 */,
+			);
+			path = 21;
+			sourceTree = "<group>";
+		};
+		63F723892B2C4F3A0024A77D /* 22 */ = {
+			isa = PBXGroup;
+			children = (
+				63F7238A2B2C4F3A0024A77D /* Puzzle22.swift */,
+				63F7238C2B2C4F3A0024A77D /* Input22 */,
+			);
+			path = 22;
+			sourceTree = "<group>";
+		};
+		63F7238E2B2C4F3A0024A77D /* 23 */ = {
+			isa = PBXGroup;
+			children = (
+				63F7238F2B2C4F3A0024A77D /* Puzzle23.swift */,
+				63F723912B2C4F3A0024A77D /* Input23 */,
+			);
+			path = 23;
+			sourceTree = "<group>";
+		};
+		63F723932B2C4F3A0024A77D /* 24 */ = {
+			isa = PBXGroup;
+			children = (
+				63F723942B2C4F3A0024A77D /* Puzzle24.swift */,
+				63F723962B2C4F3A0024A77D /* Input24 */,
+			);
+			path = 24;
+			sourceTree = "<group>";
+		};
+		63F723982B2C4F3A0024A77D /* 25 */ = {
+			isa = PBXGroup;
+			children = (
+				63F723992B2C4F3A0024A77D /* Puzzle25.swift */,
+				63F7239B2B2C4F3A0024A77D /* Input25 */,
+			);
+			path = 25;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63F723112B2C4F3A0024A77D /* AOC2023 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63F723A22B2C4F3A0024A77D /* Build configuration list for PBXNativeTarget "AOC2023" */;
+			buildPhases = (
+				63F7230F2B2C4F3A0024A77D /* Sources */,
+				63F723102B2C4F3A0024A77D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63F723182B2C4F3A0024A77D /* PBXTargetDependency */,
+			);
+			name = AOC2023;
+			productName = AOC2023;
+			productReference = 63F723122B2C4F3A0024A77D /* AOC2023 */;
+			productType = "com.apple.product-type.tool";
+		};
+		63F723152B2C4F3A0024A77D /* Input */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63F7239F2B2C4F3A0024A77D /* Build configuration list for PBXNativeTarget "Input" */;
+			buildPhases = (
+				63F723142B2C4F3A0024A77D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Input;
+			productName = Input;
+			productReference = 63F723162B2C4F3A0024A77D /* Input.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63F7230B2B2C4F3A0024A77D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					63F723112B2C4F3A0024A77D = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					63F723152B2C4F3A0024A77D = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 63F7230E2B2C4F3A0024A77D /* Build configuration list for PBXProject "AOC2023" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 63F7230A2B2C4F3A0024A77D;
+			productRefGroup = 63F723132B2C4F3A0024A77D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63F723112B2C4F3A0024A77D /* AOC2023 */,
+				63F723152B2C4F3A0024A77D /* Input */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63F723142B2C4F3A0024A77D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63F723792B2C4F3A0024A77D /* Input18 in Resources */,
+				63F723922B2C4F3A0024A77D /* Input23 in Resources */,
+				63F7236A2B2C4F3A0024A77D /* Input15 in Resources */,
+				63F7239C2B2C4F3A0024A77D /* Input25 in Resources */,
+				63F723512B2C4F3A0024A77D /* Input10 in Resources */,
+				63F7237E2B2C4F3A0024A77D /* Input19 in Resources */,
+				63F7232E2B2C4F3A0024A77D /* Input03 in Resources */,
+				63F723242B2C4F3A0024A77D /* Input01 in Resources */,
+				63F723382B2C4F3A0024A77D /* Input05 in Resources */,
+				63F7233D2B2C4F3A0024A77D /* Input06 in Resources */,
+				63F723292B2C4F3A0024A77D /* Input02 in Resources */,
+				63F7235B2B2C4F3A0024A77D /* Input12 in Resources */,
+				63F723602B2C4F3A0024A77D /* Input13 in Resources */,
+				63F723332B2C4F3A0024A77D /* Input04 in Resources */,
+				63F723742B2C4F3A0024A77D /* Input17 in Resources */,
+				63F723832B2C4F3A0024A77D /* Input20 in Resources */,
+				63F7234C2B2C4F3A0024A77D /* Input09 in Resources */,
+				63F7238D2B2C4F3A0024A77D /* Input22 in Resources */,
+				63F723562B2C4F3A0024A77D /* Input11 in Resources */,
+				63F723422B2C4F3A0024A77D /* Input07 in Resources */,
+				63F723652B2C4F3A0024A77D /* Input14 in Resources */,
+				63F723882B2C4F3A0024A77D /* Input21 in Resources */,
+				63F723972B2C4F3A0024A77D /* Input24 in Resources */,
+				63F7236F2B2C4F3A0024A77D /* Input16 in Resources */,
+				63F723472B2C4F3A0024A77D /* Input08 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63F7230F2B2C4F3A0024A77D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63F7234A2B2C4F3A0024A77D /* Puzzle09.swift in Sources */,
+				63F7238B2B2C4F3A0024A77D /* Puzzle22.swift in Sources */,
+				63F7237C2B2C4F3A0024A77D /* Puzzle19.swift in Sources */,
+				63F723362B2C4F3A0024A77D /* Puzzle05.swift in Sources */,
+				63F723592B2C4F3A0024A77D /* Puzzle12.swift in Sources */,
+				63F7232C2B2C4F3A0024A77D /* Puzzle03.swift in Sources */,
+				63F7239A2B2C4F3A0024A77D /* Puzzle25.swift in Sources */,
+				63F723452B2C4F3A0024A77D /* Puzzle08.swift in Sources */,
+				63F723682B2C4F3A0024A77D /* Puzzle15.swift in Sources */,
+				63F723222B2C4F3A0024A77D /* Puzzle01.swift in Sources */,
+				63F723722B2C4F3A0024A77D /* Puzzle17.swift in Sources */,
+				63F7233B2B2C4F3A0024A77D /* Puzzle06.swift in Sources */,
+				63F7235E2B2C4F3A0024A77D /* Puzzle13.swift in Sources */,
+				63F7236D2B2C4F3A0024A77D /* Puzzle16.swift in Sources */,
+				63F723772B2C4F3A0024A77D /* Puzzle18.swift in Sources */,
+				63F723312B2C4F3A0024A77D /* Puzzle04.swift in Sources */,
+				63F7231D2B2C4F3A0024A77D /* main.swift in Sources */,
+				63F723952B2C4F3A0024A77D /* Puzzle24.swift in Sources */,
+				63F723632B2C4F3A0024A77D /* Puzzle14.swift in Sources */,
+				63F7231F2B2C4F3A0024A77D /* InputFileReader.swift in Sources */,
+				63F723272B2C4F3A0024A77D /* Puzzle02.swift in Sources */,
+				63F723812B2C4F3A0024A77D /* Puzzle20.swift in Sources */,
+				63F723902B2C4F3A0024A77D /* Puzzle23.swift in Sources */,
+				63F7234F2B2C4F3A0024A77D /* Puzzle10.swift in Sources */,
+				63F723542B2C4F3A0024A77D /* Puzzle11.swift in Sources */,
+				63F723402B2C4F3A0024A77D /* Puzzle07.swift in Sources */,
+				63F723862B2C4F3A0024A77D /* Puzzle21.swift in Sources */,
+				63F7231B2B2C4F3A0024A77D /* Puzzle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		63F723182B2C4F3A0024A77D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63F723152B2C4F3A0024A77D /* Input */;
+			targetProxy = 63F723172B2C4F3A0024A77D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		63F7239D2B2C4F3A0024A77D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		63F7239E2B2C4F3A0024A77D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		63F723A02B2C4F3A0024A77D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2LKLZUG9JJ;
+				PRODUCT_NAME = Input;
+			};
+			name = Debug;
+		};
+		63F723A12B2C4F3A0024A77D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2LKLZUG9JJ;
+				PRODUCT_NAME = Input;
+			};
+			name = Release;
+		};
+		63F723A32B2C4F3A0024A77D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2LKLZUG9JJ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		63F723A42B2C4F3A0024A77D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2LKLZUG9JJ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63F7230E2B2C4F3A0024A77D /* Build configuration list for PBXProject "AOC2023" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63F7239D2B2C4F3A0024A77D /* Debug */,
+				63F7239E2B2C4F3A0024A77D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63F7239F2B2C4F3A0024A77D /* Build configuration list for PBXNativeTarget "Input" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63F723A02B2C4F3A0024A77D /* Debug */,
+				63F723A12B2C4F3A0024A77D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63F723A22B2C4F3A0024A77D /* Build configuration list for PBXNativeTarget "AOC2023" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63F723A32B2C4F3A0024A77D /* Debug */,
+				63F723A42B2C4F3A0024A77D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63F7230B2B2C4F3A0024A77D /* Project object */;
+}
