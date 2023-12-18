@@ -1,10 +1,3 @@
-//
-//  Puzzle01.swift
-//  AOC2023
-//
-//  Created by Jaydeep Joshi on 15/12/23.
-//
-
 struct Puzzle01: Puzzle {
     private let strings = InputFileReader.read("Input01")
 

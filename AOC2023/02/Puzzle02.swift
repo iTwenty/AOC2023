@@ -1,16 +1,8 @@
-//
-//  Puzzle02.swift
-//  AOC2023
-//
-//  Created by Jaydeep Joshi on 15/12/23.
-//
-
-fileprivate struct CubeCount: CustomStringConvertible {
+fileprivate struct Round {
     let r, g, b: Int
-    var description: String { "{\(r), \(g), \(b)}" }
 }
 
-fileprivate typealias Game = [CubeCount]
+fileprivate typealias Game = [Round]
 
 fileprivate enum Parser {
     // Ex - Game 88: 3 green, 6 red, 2 blue; 3 blue, 2 green, 6 red; 1 red, 11 blue, 2 green
@@ -26,13 +18,13 @@ fileprivate enum Parser {
         let partial = str.components(separatedBy: "; ")
         var game = Game()
         for p in partial {
-            game.append(Self.parseCubeCount(p))
+            game.append(Self.Round(p))
         }
         return game
     }
 
     // Ex - 1 red, 11 blue
-    private static func parseCubeCount(_ str: String) -> CubeCount {
+    private static func Round(_ str: String) -> Round {
         let counts = str.split(separator: ", ")
         var (r, g, b) = (0, 0, 0)
         for count in counts {
@@ -49,7 +41,7 @@ fileprivate enum Parser {
                 fatalError("Unknown color \(color)")
             }
         }
-        return CubeCount(r: r, g: g, b: b)
+        return AOC2023.Round(r: r, g: g, b: b)
     }
 }
 
@@ -66,12 +58,9 @@ struct Puzzle02: Puzzle {
     }
 
     func part1() {
-        let seed = CubeCount(r: 12, g: 13, b: 14)
         let idSum = games.reduce(0) { acc, entry in
-            if entry.value.allSatisfy({ $0.r <= seed.r && $0.g <= seed.g && $0.b <= seed.b }) {
-                return acc + entry.key
-            }
-            return acc
+            let isGamePossible = entry.value.allSatisfy({ $0.r <= 12 && $0.g <= 13 && $0.b <= 14 })
+            return acc + (isGamePossible ? entry.key : 0)
         }
         print(idSum)
     }
