@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		635965442B318060004CB028 /* Input03-test in Resources */ = {isa = PBXBuildFile; fileRef = 635965432B318060004CB028 /* Input03-test */; };
 		63F7231B2B2C4F3A0024A77D /* Puzzle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F7231A2B2C4F3A0024A77D /* Puzzle.swift */; };
 		63F7231D2B2C4F3A0024A77D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F7231C2B2C4F3A0024A77D /* main.swift */; };
 		63F7231F2B2C4F3A0024A77D /* InputFileReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F7231E2B2C4F3A0024A77D /* InputFileReader.swift */; };
@@ -73,6 +74,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		635965432B318060004CB028 /* Input03-test */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Input03-test"; sourceTree = "<group>"; };
 		63F723122B2C4F3A0024A77D /* AOC2023 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AOC2023; sourceTree = BUILT_PRODUCTS_DIR; };
 		63F723162B2C4F3A0024A77D /* Input.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Input.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		63F7231A2B2C4F3A0024A77D /* Puzzle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Puzzle.swift; sourceTree = "<group>"; };
@@ -216,6 +218,7 @@
 			children = (
 				63F7232B2B2C4F3A0024A77D /* Puzzle03.swift */,
 				63F7232D2B2C4F3A0024A77D /* Input03 */,
+				635965432B318060004CB028 /* Input03-test */,
 			);
 			path = 03;
 			sourceTree = "<group>";
@@ -513,6 +516,7 @@
 				63F723832B2C4F3A0024A77D /* Input20 in Resources */,
 				63F7234C2B2C4F3A0024A77D /* Input09 in Resources */,
 				63F7238D2B2C4F3A0024A77D /* Input22 in Resources */,
+				635965442B318060004CB028 /* Input03-test in Resources */,
 				63F723562B2C4F3A0024A77D /* Input11 in Resources */,
 				63F723422B2C4F3A0024A77D /* Input07 in Resources */,
 				63F723652B2C4F3A0024A77D /* Input14 in Resources */,

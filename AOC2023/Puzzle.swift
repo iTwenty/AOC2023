@@ -10,3 +10,7 @@ protocol Puzzle {
     func part1()
     func part2()
 }
+
+struct Point2D: Hashable {
+    let x, y: Int
+}
