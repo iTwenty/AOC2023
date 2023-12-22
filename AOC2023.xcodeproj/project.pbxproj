@@ -23,7 +23,6 @@
 		63F723362B2C4F3A0024A77D /* Puzzle05.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F723352B2C4F3A0024A77D /* Puzzle05.swift */; };
 		63F723382B2C4F3A0024A77D /* Input05 in Resources */ = {isa = PBXBuildFile; fileRef = 63F723372B2C4F3A0024A77D /* Input05 */; };
 		63F7233B2B2C4F3A0024A77D /* Puzzle06.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F7233A2B2C4F3A0024A77D /* Puzzle06.swift */; };
-		63F7233D2B2C4F3A0024A77D /* Input06 in Resources */ = {isa = PBXBuildFile; fileRef = 63F7233C2B2C4F3A0024A77D /* Input06 */; };
 		63F723402B2C4F3A0024A77D /* Puzzle07.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F7233F2B2C4F3A0024A77D /* Puzzle07.swift */; };
 		63F723422B2C4F3A0024A77D /* Input07 in Resources */ = {isa = PBXBuildFile; fileRef = 63F723412B2C4F3A0024A77D /* Input07 */; };
 		63F723452B2C4F3A0024A77D /* Puzzle08.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F723442B2C4F3A0024A77D /* Puzzle08.swift */; };
@@ -93,7 +92,6 @@
 		63F723352B2C4F3A0024A77D /* Puzzle05.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Puzzle05.swift; sourceTree = "<group>"; };
 		63F723372B2C4F3A0024A77D /* Input05 */ = {isa = PBXFileReference; lastKnownFileType = text; path = Input05; sourceTree = "<group>"; };
 		63F7233A2B2C4F3A0024A77D /* Puzzle06.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Puzzle06.swift; sourceTree = "<group>"; };
-		63F7233C2B2C4F3A0024A77D /* Input06 */ = {isa = PBXFileReference; lastKnownFileType = text; path = Input06; sourceTree = "<group>"; };
 		63F7233F2B2C4F3A0024A77D /* Puzzle07.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Puzzle07.swift; sourceTree = "<group>"; };
 		63F723412B2C4F3A0024A77D /* Input07 */ = {isa = PBXFileReference; lastKnownFileType = text; path = Input07; sourceTree = "<group>"; };
 		63F723442B2C4F3A0024A77D /* Puzzle08.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Puzzle08.swift; sourceTree = "<group>"; };
@@ -248,7 +246,6 @@
 			isa = PBXGroup;
 			children = (
 				63F7233A2B2C4F3A0024A77D /* Puzzle06.swift */,
-				63F7233C2B2C4F3A0024A77D /* Input06 */,
 			);
 			path = 06;
 			sourceTree = "<group>";
@@ -511,7 +508,6 @@
 				63F7232E2B2C4F3A0024A77D /* Input03 in Resources */,
 				63F723242B2C4F3A0024A77D /* Input01 in Resources */,
 				63F723382B2C4F3A0024A77D /* Input05 in Resources */,
-				63F7233D2B2C4F3A0024A77D /* Input06 in Resources */,
 				63F723292B2C4F3A0024A77D /* Input02 in Resources */,
 				63F7235B2B2C4F3A0024A77D /* Input12 in Resources */,
 				63F723602B2C4F3A0024A77D /* Input13 in Resources */,
