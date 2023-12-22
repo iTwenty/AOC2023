@@ -7,8 +7,8 @@
 
 /// Base protocol for all puzzles
 protocol Puzzle {
-    func part1()
-    func part2()
+    func part1() async
+    func part2() async
 }
 
 struct Point2D: Hashable {

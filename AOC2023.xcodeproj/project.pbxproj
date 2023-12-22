@@ -8,8 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		635965442B318060004CB028 /* Input03-test in Resources */ = {isa = PBXBuildFile; fileRef = 635965432B318060004CB028 /* Input03-test */; };
+		63C921572B32CDD20012A7FC /* Input05-test in Resources */ = {isa = PBXBuildFile; fileRef = 63C921562B32CDD20012A7FC /* Input05-test */; };
 		63F7231B2B2C4F3A0024A77D /* Puzzle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F7231A2B2C4F3A0024A77D /* Puzzle.swift */; };
-		63F7231D2B2C4F3A0024A77D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F7231C2B2C4F3A0024A77D /* main.swift */; };
+		63F7231D2B2C4F3A0024A77D /* Runner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F7231C2B2C4F3A0024A77D /* Runner.swift */; };
 		63F7231F2B2C4F3A0024A77D /* InputFileReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F7231E2B2C4F3A0024A77D /* InputFileReader.swift */; };
 		63F723222B2C4F3A0024A77D /* Puzzle01.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F723212B2C4F3A0024A77D /* Puzzle01.swift */; };
 		63F723242B2C4F3A0024A77D /* Input01 in Resources */ = {isa = PBXBuildFile; fileRef = 63F723232B2C4F3A0024A77D /* Input01 */; };
@@ -75,10 +76,11 @@
 
 /* Begin PBXFileReference section */
 		635965432B318060004CB028 /* Input03-test */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Input03-test"; sourceTree = "<group>"; };
+		63C921562B32CDD20012A7FC /* Input05-test */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Input05-test"; sourceTree = "<group>"; };
 		63F723122B2C4F3A0024A77D /* AOC2023 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AOC2023; sourceTree = BUILT_PRODUCTS_DIR; };
 		63F723162B2C4F3A0024A77D /* Input.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Input.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		63F7231A2B2C4F3A0024A77D /* Puzzle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Puzzle.swift; sourceTree = "<group>"; };
-		63F7231C2B2C4F3A0024A77D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		63F7231C2B2C4F3A0024A77D /* Runner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Runner.swift; sourceTree = "<group>"; };
 		63F7231E2B2C4F3A0024A77D /* InputFileReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputFileReader.swift; sourceTree = "<group>"; };
 		63F723212B2C4F3A0024A77D /* Puzzle01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Puzzle01.swift; sourceTree = "<group>"; };
 		63F723232B2C4F3A0024A77D /* Input01 */ = {isa = PBXFileReference; lastKnownFileType = text; path = Input01; sourceTree = "<group>"; };
@@ -164,7 +166,7 @@
 			isa = PBXGroup;
 			children = (
 				63F7231A2B2C4F3A0024A77D /* Puzzle.swift */,
-				63F7231C2B2C4F3A0024A77D /* main.swift */,
+				63F7231C2B2C4F3A0024A77D /* Runner.swift */,
 				63F7231E2B2C4F3A0024A77D /* InputFileReader.swift */,
 				63F723202B2C4F3A0024A77D /* 01 */,
 				63F723252B2C4F3A0024A77D /* 02 */,
@@ -237,6 +239,7 @@
 			children = (
 				63F723352B2C4F3A0024A77D /* Puzzle05.swift */,
 				63F723372B2C4F3A0024A77D /* Input05 */,
+				63C921562B32CDD20012A7FC /* Input05-test */,
 			);
 			path = 05;
 			sourceTree = "<group>";
@@ -502,6 +505,7 @@
 				63F723922B2C4F3A0024A77D /* Input23 in Resources */,
 				63F7236A2B2C4F3A0024A77D /* Input15 in Resources */,
 				63F7239C2B2C4F3A0024A77D /* Input25 in Resources */,
+				63C921572B32CDD20012A7FC /* Input05-test in Resources */,
 				63F723512B2C4F3A0024A77D /* Input10 in Resources */,
 				63F7237E2B2C4F3A0024A77D /* Input19 in Resources */,
 				63F7232E2B2C4F3A0024A77D /* Input03 in Resources */,
@@ -550,7 +554,7 @@
 				63F7236D2B2C4F3A0024A77D /* Puzzle16.swift in Sources */,
 				63F723772B2C4F3A0024A77D /* Puzzle18.swift in Sources */,
 				63F723312B2C4F3A0024A77D /* Puzzle04.swift in Sources */,
-				63F7231D2B2C4F3A0024A77D /* main.swift in Sources */,
+				63F7231D2B2C4F3A0024A77D /* Runner.swift in Sources */,
 				63F723952B2C4F3A0024A77D /* Puzzle24.swift in Sources */,
 				63F723632B2C4F3A0024A77D /* Puzzle14.swift in Sources */,
 				63F7231F2B2C4F3A0024A77D /* InputFileReader.swift in Sources */,
