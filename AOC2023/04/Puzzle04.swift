@@ -1,4 +1,4 @@
-struct Card: Hashable {
+fileprivate struct Card: Hashable {
     let id, winningCount: Int
 
     init(id: Int, winningNumbers: Set<Int>, yourNumbers: Set<Int>) {

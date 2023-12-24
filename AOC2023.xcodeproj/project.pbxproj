@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		635965442B318060004CB028 /* Input03-test in Resources */ = {isa = PBXBuildFile; fileRef = 635965432B318060004CB028 /* Input03-test */; };
+		63C0987A2B3731C600EC7B29 /* Input07-test in Resources */ = {isa = PBXBuildFile; fileRef = 63C098792B3731C600EC7B29 /* Input07-test */; };
 		63C921572B32CDD20012A7FC /* Input05-test in Resources */ = {isa = PBXBuildFile; fileRef = 63C921562B32CDD20012A7FC /* Input05-test */; };
 		63F7231B2B2C4F3A0024A77D /* Puzzle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F7231A2B2C4F3A0024A77D /* Puzzle.swift */; };
 		63F7231D2B2C4F3A0024A77D /* Runner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F7231C2B2C4F3A0024A77D /* Runner.swift */; };
@@ -75,6 +76,7 @@
 
 /* Begin PBXFileReference section */
 		635965432B318060004CB028 /* Input03-test */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Input03-test"; sourceTree = "<group>"; };
+		63C098792B3731C600EC7B29 /* Input07-test */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Input07-test"; sourceTree = "<group>"; };
 		63C921562B32CDD20012A7FC /* Input05-test */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Input05-test"; sourceTree = "<group>"; };
 		63F723122B2C4F3A0024A77D /* AOC2023 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AOC2023; sourceTree = BUILT_PRODUCTS_DIR; };
 		63F723162B2C4F3A0024A77D /* Input.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Input.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -255,6 +257,7 @@
 			children = (
 				63F7233F2B2C4F3A0024A77D /* Puzzle07.swift */,
 				63F723412B2C4F3A0024A77D /* Input07 */,
+				63C098792B3731C600EC7B29 /* Input07-test */,
 			);
 			path = 07;
 			sourceTree = "<group>";
@@ -502,6 +505,7 @@
 				63F723922B2C4F3A0024A77D /* Input23 in Resources */,
 				63F7236A2B2C4F3A0024A77D /* Input15 in Resources */,
 				63F7239C2B2C4F3A0024A77D /* Input25 in Resources */,
+				63C0987A2B3731C600EC7B29 /* Input07-test in Resources */,
 				63C921572B32CDD20012A7FC /* Input05-test in Resources */,
 				63F723512B2C4F3A0024A77D /* Input10 in Resources */,
 				63F7237E2B2C4F3A0024A77D /* Input19 in Resources */,
