@@ -11,8 +11,17 @@ protocol Puzzle {
     func part2() async
 }
 
-struct Point2D: Hashable {
+struct Point2D: Hashable, CustomStringConvertible {
     let x, y: Int
+    var description: String { "(\(x), \(y))" }
+
+    static func + (lhs: Point2D, rhs: Point2D) -> Point2D {
+        Point2D(x: lhs.x + rhs.x, y: lhs.y + rhs.y)
+    }
+
+    static func - (lhs: Point2D, rhs: Point2D) -> Point2D {
+        Point2D(x: lhs.x - rhs.x, y: lhs.y - rhs.y)
+    }
 }
 
 /// Returns the Greatest Common Divisor of two numbers.
