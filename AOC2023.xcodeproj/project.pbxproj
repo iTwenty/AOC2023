@@ -10,6 +10,8 @@
 		635965442B318060004CB028 /* Input03-test in Resources */ = {isa = PBXBuildFile; fileRef = 635965432B318060004CB028 /* Input03-test */; };
 		63AB15052B3AF5C200302EE6 /* Input09-test in Resources */ = {isa = PBXBuildFile; fileRef = 63AB15042B3AF5C200302EE6 /* Input09-test */; };
 		63ABEE4A2B441693005BD5B2 /* Input10-test in Resources */ = {isa = PBXBuildFile; fileRef = 63ABEE492B441693005BD5B2 /* Input10-test */; };
+		63ABEE4C2B442A5F005BD5B2 /* Input11-test in Resources */ = {isa = PBXBuildFile; fileRef = 63ABEE4B2B442A5F005BD5B2 /* Input11-test */; };
+		63ABEE4F2B447A1A005BD5B2 /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = 63ABEE4E2B447A1A005BD5B2 /* Algorithms */; };
 		63C0987A2B3731C600EC7B29 /* Input07-test in Resources */ = {isa = PBXBuildFile; fileRef = 63C098792B3731C600EC7B29 /* Input07-test */; };
 		63C0987C2B38818300EC7B29 /* Input08-test in Resources */ = {isa = PBXBuildFile; fileRef = 63C0987B2B38818300EC7B29 /* Input08-test */; };
 		63C921572B32CDD20012A7FC /* Input05-test in Resources */ = {isa = PBXBuildFile; fileRef = 63C921562B32CDD20012A7FC /* Input05-test */; };
@@ -81,6 +83,7 @@
 		635965432B318060004CB028 /* Input03-test */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Input03-test"; sourceTree = "<group>"; };
 		63AB15042B3AF5C200302EE6 /* Input09-test */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Input09-test"; sourceTree = "<group>"; };
 		63ABEE492B441693005BD5B2 /* Input10-test */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Input10-test"; sourceTree = "<group>"; };
+		63ABEE4B2B442A5F005BD5B2 /* Input11-test */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Input11-test"; sourceTree = "<group>"; };
 		63C098792B3731C600EC7B29 /* Input07-test */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Input07-test"; sourceTree = "<group>"; };
 		63C0987B2B38818300EC7B29 /* Input08-test */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Input08-test"; sourceTree = "<group>"; };
 		63C921562B32CDD20012A7FC /* Input05-test */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Input05-test"; sourceTree = "<group>"; };
@@ -145,6 +148,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63ABEE4F2B447A1A005BD5B2 /* Algorithms in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,6 +307,7 @@
 			children = (
 				63F723532B2C4F3A0024A77D /* Puzzle11.swift */,
 				63F723552B2C4F3A0024A77D /* Input11 */,
+				63ABEE4B2B442A5F005BD5B2 /* Input11-test */,
 			);
 			path = 11;
 			sourceTree = "<group>";
@@ -449,6 +454,9 @@
 				63F723182B2C4F3A0024A77D /* PBXTargetDependency */,
 			);
 			name = AOC2023;
+			packageProductDependencies = (
+				63ABEE4E2B447A1A005BD5B2 /* Algorithms */,
+			);
 			productName = AOC2023;
 			productReference = 63F723122B2C4F3A0024A77D /* AOC2023 */;
 			productType = "com.apple.product-type.tool";
@@ -495,6 +503,9 @@
 				Base,
 			);
 			mainGroup = 63F7230A2B2C4F3A0024A77D;
+			packageReferences = (
+				63ABEE4D2B447A1A005BD5B2 /* XCRemoteSwiftPackageReference "swift-algorithms" */,
+			);
 			productRefGroup = 63F723132B2C4F3A0024A77D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -531,6 +542,7 @@
 				63F723742B2C4F3A0024A77D /* Input17 in Resources */,
 				63F723832B2C4F3A0024A77D /* Input20 in Resources */,
 				63F7234C2B2C4F3A0024A77D /* Input09 in Resources */,
+				63ABEE4C2B442A5F005BD5B2 /* Input11-test in Resources */,
 				63F7238D2B2C4F3A0024A77D /* Input22 in Resources */,
 				635965442B318060004CB028 /* Input03-test in Resources */,
 				63F723562B2C4F3A0024A77D /* Input11 in Resources */,
@@ -782,6 +794,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		63ABEE4D2B447A1A005BD5B2 /* XCRemoteSwiftPackageReference "swift-algorithms" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-algorithms.git";
+			requirement = {
+				kind = exactVersion;
+				version = 1.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		63ABEE4E2B447A1A005BD5B2 /* Algorithms */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 63ABEE4D2B447A1A005BD5B2 /* XCRemoteSwiftPackageReference "swift-algorithms" */;
+			productName = Algorithms;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 63F7230B2B2C4F3A0024A77D /* Project object */;
 }
