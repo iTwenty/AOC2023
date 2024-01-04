@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		635965442B318060004CB028 /* Input03-test in Resources */ = {isa = PBXBuildFile; fileRef = 635965432B318060004CB028 /* Input03-test */; };
+		636D319F2B456E4E003F1168 /* Input12-test in Resources */ = {isa = PBXBuildFile; fileRef = 636D319E2B456E4E003F1168 /* Input12-test */; };
 		63AB15052B3AF5C200302EE6 /* Input09-test in Resources */ = {isa = PBXBuildFile; fileRef = 63AB15042B3AF5C200302EE6 /* Input09-test */; };
 		63ABEE4A2B441693005BD5B2 /* Input10-test in Resources */ = {isa = PBXBuildFile; fileRef = 63ABEE492B441693005BD5B2 /* Input10-test */; };
 		63ABEE4C2B442A5F005BD5B2 /* Input11-test in Resources */ = {isa = PBXBuildFile; fileRef = 63ABEE4B2B442A5F005BD5B2 /* Input11-test */; };
@@ -81,6 +82,7 @@
 
 /* Begin PBXFileReference section */
 		635965432B318060004CB028 /* Input03-test */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Input03-test"; sourceTree = "<group>"; };
+		636D319E2B456E4E003F1168 /* Input12-test */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Input12-test"; sourceTree = "<group>"; };
 		63AB15042B3AF5C200302EE6 /* Input09-test */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Input09-test"; sourceTree = "<group>"; };
 		63ABEE492B441693005BD5B2 /* Input10-test */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Input10-test"; sourceTree = "<group>"; };
 		63ABEE4B2B442A5F005BD5B2 /* Input11-test */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Input11-test"; sourceTree = "<group>"; };
@@ -317,6 +319,7 @@
 			children = (
 				63F723582B2C4F3A0024A77D /* Puzzle12.swift */,
 				63F7235A2B2C4F3A0024A77D /* Input12 */,
+				636D319E2B456E4E003F1168 /* Input12-test */,
 			);
 			path = 12;
 			sourceTree = "<group>";
@@ -533,6 +536,7 @@
 				63F7232E2B2C4F3A0024A77D /* Input03 in Resources */,
 				63C0987C2B38818300EC7B29 /* Input08-test in Resources */,
 				63F723242B2C4F3A0024A77D /* Input01 in Resources */,
+				636D319F2B456E4E003F1168 /* Input12-test in Resources */,
 				63F723382B2C4F3A0024A77D /* Input05 in Resources */,
 				63F723292B2C4F3A0024A77D /* Input02 in Resources */,
 				63F7235B2B2C4F3A0024A77D /* Input12 in Resources */,

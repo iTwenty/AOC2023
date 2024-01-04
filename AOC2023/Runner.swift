@@ -10,7 +10,7 @@ import Foundation
 @main
 struct Runner {
     static func main() async throws {
-        let puzzle = Puzzle11()
+        let puzzle = Puzzle12()
         await puzzle.part1()
         await puzzle.part2()
     }
