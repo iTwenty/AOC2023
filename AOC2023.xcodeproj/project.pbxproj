@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		63290F072B4C0462004FA9E5 /* Input15-test in Resources */ = {isa = PBXBuildFile; fileRef = 63290F062B4C0462004FA9E5 /* Input15-test */; };
 		635965442B318060004CB028 /* Input03-test in Resources */ = {isa = PBXBuildFile; fileRef = 635965432B318060004CB028 /* Input03-test */; };
 		636D319F2B456E4E003F1168 /* Input12-test in Resources */ = {isa = PBXBuildFile; fileRef = 636D319E2B456E4E003F1168 /* Input12-test */; };
 		639B230F2B48057800210865 /* Input13-reddit2 in Resources */ = {isa = PBXBuildFile; fileRef = 639B230E2B48057800210865 /* Input13-reddit2 */; };
@@ -85,6 +86,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		63290F062B4C0462004FA9E5 /* Input15-test */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Input15-test"; sourceTree = "<group>"; };
 		635965432B318060004CB028 /* Input03-test */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Input03-test"; sourceTree = "<group>"; };
 		636D319E2B456E4E003F1168 /* Input12-test */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Input12-test"; sourceTree = "<group>"; };
 		639B230E2B48057800210865 /* Input13-reddit2 */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Input13-reddit2"; sourceTree = "<group>"; };
@@ -359,6 +361,7 @@
 			children = (
 				63F723672B2C4F3A0024A77D /* Puzzle15.swift */,
 				63F723692B2C4F3A0024A77D /* Input15 */,
+				63290F062B4C0462004FA9E5 /* Input15-test */,
 			);
 			path = 15;
 			sourceTree = "<group>";
@@ -541,6 +544,7 @@
 				63F723922B2C4F3A0024A77D /* Input23 in Resources */,
 				63F7236A2B2C4F3A0024A77D /* Input15 in Resources */,
 				63F7239C2B2C4F3A0024A77D /* Input25 in Resources */,
+				63290F072B4C0462004FA9E5 /* Input15-test in Resources */,
 				63C0987A2B3731C600EC7B29 /* Input07-test in Resources */,
 				63AB15052B3AF5C200302EE6 /* Input09-test in Resources */,
 				63C921572B32CDD20012A7FC /* Input05-test in Resources */,
