@@ -10,6 +10,7 @@
 		63290F072B4C0462004FA9E5 /* Input15-test in Resources */ = {isa = PBXBuildFile; fileRef = 63290F062B4C0462004FA9E5 /* Input15-test */; };
 		635965442B318060004CB028 /* Input03-test in Resources */ = {isa = PBXBuildFile; fileRef = 635965432B318060004CB028 /* Input03-test */; };
 		636D319F2B456E4E003F1168 /* Input12-test in Resources */ = {isa = PBXBuildFile; fileRef = 636D319E2B456E4E003F1168 /* Input12-test */; };
+		637B6AEA2B50139000604CE6 /* Input18-test in Resources */ = {isa = PBXBuildFile; fileRef = 637B6AE92B50136800604CE6 /* Input18-test */; };
 		639B230F2B48057800210865 /* Input13-reddit2 in Resources */ = {isa = PBXBuildFile; fileRef = 639B230E2B48057800210865 /* Input13-reddit2 */; };
 		639C06062B4D47F7007D9F10 /* Input16-test in Resources */ = {isa = PBXBuildFile; fileRef = 639C06052B4D47F7007D9F10 /* Input16-test */; };
 		639C06092B4EA068007D9F10 /* Collections in Frameworks */ = {isa = PBXBuildFile; productRef = 639C06082B4EA068007D9F10 /* Collections */; };
@@ -94,6 +95,7 @@
 		63290F062B4C0462004FA9E5 /* Input15-test */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Input15-test"; sourceTree = "<group>"; };
 		635965432B318060004CB028 /* Input03-test */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Input03-test"; sourceTree = "<group>"; };
 		636D319E2B456E4E003F1168 /* Input12-test */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Input12-test"; sourceTree = "<group>"; };
+		637B6AE92B50136800604CE6 /* Input18-test */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Input18-test"; sourceTree = "<group>"; };
 		639B230E2B48057800210865 /* Input13-reddit2 */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Input13-reddit2"; sourceTree = "<group>"; };
 		639C06052B4D47F7007D9F10 /* Input16-test */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Input16-test"; sourceTree = "<group>"; };
 		639C060E2B4EB5B5007D9F10 /* Input17-test */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Input17-test"; sourceTree = "<group>"; };
@@ -401,6 +403,7 @@
 			children = (
 				63F723762B2C4F3A0024A77D /* Puzzle18.swift */,
 				63F723782B2C4F3A0024A77D /* Input18 */,
+				637B6AE92B50136800604CE6 /* Input18-test */,
 			);
 			path = 18;
 			sourceTree = "<group>";
@@ -581,6 +584,7 @@
 				63F723832B2C4F3A0024A77D /* Input20 in Resources */,
 				63BDC8522B49A02F00C298CF /* Input14-test in Resources */,
 				63F7234C2B2C4F3A0024A77D /* Input09 in Resources */,
+				637B6AEA2B50139000604CE6 /* Input18-test in Resources */,
 				63ABEE4C2B442A5F005BD5B2 /* Input11-test in Resources */,
 				63F7238D2B2C4F3A0024A77D /* Input22 in Resources */,
 				639C060F2B4EB5B5007D9F10 /* Input17-test in Resources */,

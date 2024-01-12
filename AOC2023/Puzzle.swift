@@ -11,7 +11,7 @@ protocol Puzzle {
     func part2() async
 }
 
-struct Point2D: Hashable, CustomStringConvertible {
+struct Point2D: Hashable, Comparable, CustomStringConvertible {
     let x, y: Int
     var description: String { "(\(x), \(y))" }
 
@@ -21,6 +21,13 @@ struct Point2D: Hashable, CustomStringConvertible {
 
     static func - (lhs: Point2D, rhs: Point2D) -> Point2D {
         Point2D(x: lhs.x - rhs.x, y: lhs.y - rhs.y)
+    }
+
+    static func < (lhs: Point2D, rhs: Point2D) -> Bool {
+        if lhs.y == rhs.y {
+            return lhs.x < rhs.x
+        }
+        return lhs.y < rhs.y
     }
 }
 
