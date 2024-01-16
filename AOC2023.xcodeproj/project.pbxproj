@@ -28,6 +28,7 @@
 		63C921572B32CDD20012A7FC /* Input05-test in Resources */ = {isa = PBXBuildFile; fileRef = 63C921562B32CDD20012A7FC /* Input05-test */; };
 		63D1940F2B46CF9C005CAD8E /* Input13-test in Resources */ = {isa = PBXBuildFile; fileRef = 63D1940E2B46CF98005CAD8E /* Input13-test */; };
 		63D194112B47E512005CAD8E /* Input13-reddit in Resources */ = {isa = PBXBuildFile; fileRef = 63D194102B47E512005CAD8E /* Input13-reddit */; };
+		63F24FCF2B550B5B0078EBFE /* Input20-test in Resources */ = {isa = PBXBuildFile; fileRef = 63F24FCE2B550B5B0078EBFE /* Input20-test */; };
 		63F7231B2B2C4F3A0024A77D /* Puzzle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F7231A2B2C4F3A0024A77D /* Puzzle.swift */; };
 		63F7231D2B2C4F3A0024A77D /* Runner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F7231C2B2C4F3A0024A77D /* Runner.swift */; };
 		63F7231F2B2C4F3A0024A77D /* InputFileReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F7231E2B2C4F3A0024A77D /* InputFileReader.swift */; };
@@ -110,6 +111,7 @@
 		63C921562B32CDD20012A7FC /* Input05-test */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Input05-test"; sourceTree = "<group>"; };
 		63D1940E2B46CF98005CAD8E /* Input13-test */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Input13-test"; sourceTree = "<group>"; };
 		63D194102B47E512005CAD8E /* Input13-reddit */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Input13-reddit"; sourceTree = "<group>"; };
+		63F24FCE2B550B5B0078EBFE /* Input20-test */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Input20-test"; sourceTree = "<group>"; };
 		63F723122B2C4F3A0024A77D /* AOC2023 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AOC2023; sourceTree = BUILT_PRODUCTS_DIR; };
 		63F723162B2C4F3A0024A77D /* Input.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Input.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		63F7231A2B2C4F3A0024A77D /* Puzzle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Puzzle.swift; sourceTree = "<group>"; };
@@ -425,6 +427,7 @@
 			children = (
 				63F723802B2C4F3A0024A77D /* Puzzle20.swift */,
 				63F723822B2C4F3A0024A77D /* Input20 */,
+				63F24FCE2B550B5B0078EBFE /* Input20-test */,
 			);
 			path = 20;
 			sourceTree = "<group>";
@@ -586,6 +589,7 @@
 				63F723332B2C4F3A0024A77D /* Input04 in Resources */,
 				63F723742B2C4F3A0024A77D /* Input17 in Resources */,
 				63F723832B2C4F3A0024A77D /* Input20 in Resources */,
+				63F24FCF2B550B5B0078EBFE /* Input20-test in Resources */,
 				63BDC8522B49A02F00C298CF /* Input14-test in Resources */,
 				63F7234C2B2C4F3A0024A77D /* Input09 in Resources */,
 				637B6AEA2B50139000604CE6 /* Input18-test in Resources */,
